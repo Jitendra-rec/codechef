@@ -7,12 +7,28 @@ class fairelection
     public static void main(String arr[])
     {
        Scanner sc=new Scanner (System.in);
+
+        int t,i,n,m,j,k,sn,sm;
+        System.out.println("Enter test cases");
+        t=sc.nextInt();
+        for (i=0;i<t;i++) {
+        int n=sc.nextInt();
+        int m=sc.nextInt();
+        int an[]=new int[n]
+        int am[]=new int[m]
+        for (j=0;j<n ;j++ ) {
+            an[j]=sc.nextInt();
+            sn=sn+an[j];
+        }
+
+        for (k=0;k<m ;k++ ) {
+            am[k]=sc.nextInt();
+            sm=sm+am[j];
+        }
+
         
-        int a,i;
-        int ar[]=new int[]
-        {5,87,8,54,6};
-        Arrays.sort(ar);
-        for(i=0;i<5;i++)
-        System.out.println(ar[i]);
+        Arrays.sort(an);
+        Arrays.sort(am);
+        
     }
 }
